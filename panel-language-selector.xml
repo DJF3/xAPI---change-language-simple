@@ -1,0 +1,37 @@
+<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>panel_lang</PanelId>
+    <Type>Home</Type>
+    <Icon>Language</Icon>
+    <Order>6</Order>
+    <Color>#D541D8</Color>
+    <Name>Language</Name>
+    <Page>
+      <Name>Select Language</Name>
+      <Row>
+        <Name>Row</Name>
+        <Widget>
+          <WidgetId>lang_selector</WidgetId>
+          <Type>GroupButton</Type>
+          <Options>size=4;columns=1</Options>
+          <ValueSpace>
+            <Value>
+              <Key>lang_english</Key>
+              <Name>English</Name>
+            </Value>
+            <Value>
+              <Key>lang_dutch</Key>
+              <Name>Dutch</Name>
+            </Value>
+            <Value>
+              <Key>lang_german</Key>
+              <Name>German</Name>
+            </Value>
+          </ValueSpace>
+        </Widget>
+      </Row>
+      <Options>hideRowNames=1</Options>
+    </Page>
+  </Panel>
+</Extensions>
