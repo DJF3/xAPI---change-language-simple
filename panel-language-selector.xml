@@ -1,10 +1,10 @@
 <Extensions>
-  <Version>1.5</Version>
+  <Version>1.7</Version>
   <Panel>
     <PanelId>panel_lang</PanelId>
     <Type>Home</Type>
     <Icon>Language</Icon>
-    <Order>6</Order>
+    <Order>1</Order>
     <Color>#D541D8</Color>
     <Name>Language</Name>
     <Page>
